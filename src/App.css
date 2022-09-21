@@ -1,0 +1,19 @@
+body {
+    background: black;
+    color: antiquewhite;
+
+    margin-top: 2rem;
+}
+
+.song {
+    border: 1px solid white;
+    font-size: 2rem;
+    margin-top: 1px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2px;
+}
+
+.song:hover{
+    background: rgba(250, 235, 215, 0.407);
+}
