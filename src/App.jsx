@@ -10,7 +10,7 @@ function App() {
   fetch('http://assets.breatheco.de/apis/sound/fx').then((res) => {
     return res.json()
   }).then((data) => {
-    setSong(data.map(s => <div className='song'>{s.name}</div>))
+    setSong(data.map((s, key) => <div className='song' key={key}>{s.id}. {s.name}</div>))
   })
 
   return (
